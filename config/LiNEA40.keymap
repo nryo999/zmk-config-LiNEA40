@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,
+            //スクロール方向を逆転,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -114,6 +114,16 @@
         japan {
             bindings = <&kp LANG5>;
             key-positions = <12 13>;
+        };
+
+        eng {
+            bindings = <&kp LANG1>;
+            key-positions = <3 4>;
+        };
+
+        eng {
+            bindings = <&kp LANG2>;
+            key-positions = <13 14>;
         };
     };
 
